@@ -25,8 +25,7 @@ if(isset($_SESSION['theme'])) {
 <!doctype html>
 
 <head>
-    <meta charset="utf-8">
-    <title>CODIAD</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <title>CODIAD</title>
     <?php
     // Load System CSS Files
     $stylesheets = array("jquery.toastmessage.css","reset.css","fonts.css","screen.css");
